@@ -9,6 +9,7 @@ import firebase_admin
 from firebase_admin import db
 
 # git push  web: uvicorn main:app --host 0.0.0.0 --port $PORT
+# web: uvicorn main:app --host 0.0.0.0 --port $PORT
 
 cred_obj = firebase_admin.credentials.Certificate('config/fitbitapi-364519-firebase-adminsdk-9b1pk-1c9aedc03b.json')
 
